@@ -4,6 +4,10 @@ A set of editors for getting to grips with [Rug][rug].
 
 [rug]: http://docs.atomist.com/
 
+## Usage
+
+First run the [Rug Koans Project generator](https://github.com/atomist-rugs/rug-koans-project) and that will then lead you on the journey of executing these editors against your project as you explore the features of Rug.
+
 ## Development
 
 You can build, test, and install the project locally with
