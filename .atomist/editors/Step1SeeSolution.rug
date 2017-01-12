@@ -14,11 +14,13 @@
  * limitations under the License.
  */
 
-@description "adds the starting point for the Rug Koan Step 1"
+@description "adds the solution for Rug Koan Step 1"
 @tag "rug"
-editor AddRugKoanStep1Start
+editor Step1SeeSolution
 
 with Project begin
-  do merge "step1startrug.vm" ".atomist/editors/AnEmptyProjectGeneratorWithRugDSLStart.rug"
-  do merge "step1startrt.vm" ".atomist/tests/AnEmptyProjectGeneratorWithRugDSLStart.rt"
+  do merge "step1/solutionrug.vm" ".atomist/editors/Step1Solution.rug"
+  do merge "step1/solutionrt.vm" ".atomist/tests/Step1Solution.rt"
+  do merge "step1/solutionreadme.vm" ".atomist/templates/readme.mustache"
+  do merge "step1/solutionstaticprojectfile.vm" "staticprojectfile.txt"
 end

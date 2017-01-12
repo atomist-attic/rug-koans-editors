@@ -14,4 +14,14 @@
  * limitations under the License.
  */
 
-scenario AnEmptyProjectGeneratorWithRugDSLSolution 
+scenario Step1 should the starting point for Rug Koan Step 1 to an existing Atomist Rug Archive
+
+given
+  Empty
+
+when
+  Step1
+
+then
+  fileExists ".atomist/editors/Step1.rug"
+    and fileExists ".atomist/tests/Step1.rt"

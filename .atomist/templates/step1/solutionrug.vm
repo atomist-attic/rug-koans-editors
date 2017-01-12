@@ -1,0 +1,6 @@
+@generator
+editor AnEmptyProjectGeneratorWithRugDSLSolution
+
+with Project begin
+  do merge "readme.mustache" "README.md"
+end

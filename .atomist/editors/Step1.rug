@@ -14,13 +14,11 @@
  * limitations under the License.
  */
 
-scenario AnEmptyProjectGeneratorWithRugDSLSolution should create an empty project
+@description "adds the starting point for the Rug Koan Step 1"
+@tag "rug"
+editor Step1
 
-given
-  Empty
-
-when
-  AnEmptyProjectGeneratorWithRugDSLSolution
-
-then
-  { !result.fileExists("README.md") }
+with Project begin
+  do merge "step1/rug.vm" ".atomist/editors/Step1.rug"
+  do merge "step1/rt.vm" ".atomist/tests/Step1.rt"
+end

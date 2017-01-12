@@ -14,10 +14,16 @@
  * limitations under the License.
  */
 
-@generator
-editor AnEmptyProjectGeneratorWithRugDSLSolution
+scenario Step1SeeSolution should add the files for the solution alongside the working files for this Koan
 
-with Project begin
-  do merge "readme.mustache" "README.md"
-  do deleteFile "README.md"
-end
+given
+  Empty
+
+when
+  Step1SeeSolution
+
+then
+  fileExists ".atomist/editors/Step1Solution.rug"
+  and fileExists ".atomist/tests/Step1Solution.rt"
+  and fileExists ".atomist/templates/readme.mustache"
+  and fileExists "staticprojectfile.txt"

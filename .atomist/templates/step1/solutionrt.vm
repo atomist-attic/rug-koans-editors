@@ -1,0 +1,13 @@
+scenario Step1Solution should create an empty project with a merged README
+
+given
+  ArchiveRoot
+
+when
+  Step1Solution
+
+then
+  fileExists "README.md"
+    and fileContains "README.md" "Hello!"
+    and fileExists "staticprojectfile.txt"
+    and fileContains "staticprojectfile.txt" "Important Content!"

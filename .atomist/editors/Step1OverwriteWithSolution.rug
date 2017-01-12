@@ -1,0 +1,34 @@
+/*
+ * Copyright © 2016 Atomist, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+@description "overwrites the working files with the solution for Rug Koan Step 1"
+@tag "rug"
+editor Step1OverwriteWithSolution
+
+with Project begin
+  do merge "step1/solutionrug.vm" ".atomist/editors/Step1.rug"
+  do merge "step1/solutionrt.vm" ".atomist/tests/Step1.rt"
+  do merge "step1/solutionreadme.vm" ".atomist/templates/readme.mustache"
+  do merge "step1/solutionstaticprojectfile.vm" "staticprojectfile.txt"
+  do deleteFile ".atomist/editors/Step1Solution.rug"
+  do deleteFile ".atomist/tests/Step1Solution.rt"
+end
+
+with File when name = ".atomist/editors/Step1.rug"
+  do replace "Step1Solution" "Step1"
+
+with File when name = ".atomist/tests/Step1.rt"
+  do replace "Step1Solution" "Step1"

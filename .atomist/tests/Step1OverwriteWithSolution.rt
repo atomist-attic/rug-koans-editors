@@ -14,4 +14,16 @@
  * limitations under the License.
  */
 
-editor AnEmptyProjectGeneratorWithRugDSLStart
+scenario Step1OverwriteWithSolution should overwrite the working files with the solution
+
+given
+  Empty
+
+when
+  Step1OverwriteWithSolution
+
+then
+  fileExists ".atomist/editors/Step1.rug"
+    and fileExists ".atomist/tests/Step1.rt"
+    and fileExists ".atomist/templates/readme.mustache"
+    and fileExists "staticprojectfile.txt"
