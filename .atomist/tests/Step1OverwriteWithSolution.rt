@@ -25,5 +25,9 @@ when
 then
   fileExists ".atomist/editors/Step1.rug"
     and fileExists ".atomist/tests/Step1.rt"
+    and fileContains ".atomist/editors/Step1.rug" "editor Step1"
+    and fileContains ".atomist/tests/Step1.rt" "scenario Step1"
+    and { !result.fileContains(".atomist/editors/Step1.rug", "Step1Solution") }
+    and { !result.fileContains(".atomist/tests/Step1.rt", "Step1Solution") }
     and fileExists ".atomist/templates/readme.mustache"
     and fileExists "staticprojectfile.txt"

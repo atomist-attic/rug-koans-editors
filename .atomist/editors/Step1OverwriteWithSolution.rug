@@ -25,10 +25,5 @@ with Project begin
   do merge "step1/solutionstaticprojectfile.vm" "staticprojectfile.txt"
   do deleteFile ".atomist/editors/Step1Solution.rug"
   do deleteFile ".atomist/tests/Step1Solution.rt"
+  do replace "Step1Solution" "Step1"
 end
-
-with File when name = ".atomist/editors/Step1.rug"
-  do replace "Step1Solution" "Step1"
-
-with File when name = ".atomist/tests/Step1.rt"
-  do replace "Step1Solution" "Step1"
