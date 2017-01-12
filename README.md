@@ -10,7 +10,7 @@ First run the [Rug Koans Project generator](https://github.com/atomist-rugs/rug-
 
 ## Rugs
 
-If you like you can run the Rugs here outside of the Koans journey that begins with the [Rug Koans project generator](https://github.com/atomist-rugs/rug-koans-project). Here we describe each of the individual Rugs and what they will attempt to do.
+If you like you can run the Rugs here outside of the Koans journey that begins with the [Rug Koans project generator](https://github.com/atomist-rugs/rug-koans-project). Here we describe each of the individual Rugs and what they will attempt to do to your own projects.
 
 ### Step1
 
