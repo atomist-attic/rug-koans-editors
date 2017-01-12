@@ -22,7 +22,7 @@ If you like you can run the Rugs here outside of the Koans journey that begins w
 
 The Step1 editor creates the files that are the starting point for this first step on the Rug Koans journey.
 
-[<img src="http://images.atomist.com/button/start-koan.png" width="267" alt="Start this Rug Koan"/>](https://api.atomist.com/v1/projects/editors/a219b2a6-3d1f-4445-858f-af9059a8f935)
+[<img src="http://images.atomist.com/button/start-koan.png" width="216" alt="Start this Rug Koan"/>](https://api.atomist.com/v1/projects/editors/a219b2a6-3d1f-4445-858f-af9059a8f935)
 
 #### Prerequisites
 
