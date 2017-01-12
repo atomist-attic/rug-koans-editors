@@ -12,7 +12,7 @@ A set of editors for getting to grips with [Rug][rug]. Typically applied to a pr
 
 ## Usage
 
-First run the [Rug Koans Project generator](https://github.com/atomist-rugs/rug-koans-project) and that will then lead you on the journey of executing these editors against your project as you explore the features of Rug.
+Typically you would first run the [Rug Koans Project generator](https://github.com/atomist-rugs/rug-koans-project) and that will then lead you on the journey of executing these editors against your project as you explore the features of Rug.
 
 ## Rugs
 
