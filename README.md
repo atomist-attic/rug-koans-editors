@@ -5,7 +5,7 @@
 
 > ***"Rugs to teach Rug using Rug."***
 
-A set of editors for getting to grips with [Rug][rug]. Typically applied to a project generated from the Rug [Koans Project generator].
+A set of editors for getting to grips with [Rug][rug]. Typically applied to a project generated from the Rug [Koans Project generator][rug-koans-project].
 
 [rug]: http://docs.atomist.com/
 [rug-koans-project]: https://github.com/atomist-rugs/rug-koans-project
