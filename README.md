@@ -45,7 +45,7 @@ $ rug edit atomist-rugs:rug-koans-editors:Step1
 
 The Step1SeeSolution editor populates a set of addition files that show how the solution to this step should look *without* overwriting your working files.
 
-[<img src="http://images.atomist.com/button/apply-koan-solution.png" width="267" alt="See this Rug Koan Solution"](https://api.atomist.com/v1/projects/editors/73f2146b-9851-4115-862d-ffc9a9257d5e)
+[<img src="http://images.atomist.com/button/apply-koan-solution.png" width="267" alt="See this Rug Koan Solution"/>](https://api.atomist.com/v1/projects/editors/73f2146b-9851-4115-862d-ffc9a9257d5e)
 
 #### Prerequisites
 
@@ -68,7 +68,7 @@ $ rug edit atomist-rugs:rug-koans-editors:Step1SeeSolution
 
 The Step1OverwriteWithSolution editor overwrites your working files for this step with the solution.
 
-[<img src="http://images.atomist.com/button/see-koan-solution.png" width="267" alt="Apply this Rug Koan Solution"](https://api.atomist.com/v1/projects/editors/e2aa28cc-d2e5-4a9a-9273-4680bd15438a)
+[<img src="http://images.atomist.com/button/see-koan-solution.png" width="267" alt="Apply this Rug Koan Solution"/>](https://api.atomist.com/v1/projects/editors/e2aa28cc-d2e5-4a9a-9273-4680bd15438a)
 
 #### Prerequisites
 
