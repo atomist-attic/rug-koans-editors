@@ -1,5 +1,10 @@
 # Atomist 'rug-koans-editors'
 
+[![Build Status](https://travis-ci.org/atomist-rugs/rug-koans-editors.svg?branch=master)](https://travis-ci.org/atomist-rugs/rug-koans-editors)
+[![Slack Status](https://join.atomist.com/badge.svg)](https://join.atomist.com)
+
+> ***"Rugs to teach Rug using Rug."***
+
 A set of editors for getting to grips with [Rug][rug].
 
 [rug]: http://docs.atomist.com/
