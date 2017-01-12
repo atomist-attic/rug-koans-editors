@@ -7,4 +7,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-[Unreleased]: https://github.com/atomist-rugs/rug-koans-project/compare/0931e8...HEAD
+[Unreleased]: https://github.com/atomist-rugs/rug-koans-editors/compare/0931e8...HEAD
