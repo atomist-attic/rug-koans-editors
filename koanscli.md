@@ -1,6 +1,6 @@
 # Embarking on your Rug Koans Journey using the Rug CLI Only
 
-First, if you haven't already please ensure that you have the [Rug CLI][] installed. Instructions on [how to install the Rug CLI are provided][rug-cli-install].
+First, if you haven't already please ensure that you have the [Rug CLI][rug-cli] [installed][rug-cli-install]. Instructions on [how to install the Rug CLI are provided][rug-cli-install].
 
 [rug-cli]: https://github.com/atomist/rug-cli
 [rug-cli-install]: http://docs.atomist.com/rug/rug-cli/rug-cli-install/]
