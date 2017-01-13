@@ -11,7 +11,7 @@ Once you have a project all set it's time to start your journey proper...
 
 ## How to work through the Koans using Rug CLI
 
-Every Koan comes with three main: `Start`, `See Solution` and `Apply Solution`. The three stages are executed written in Rug and so you'll use the CLI to set them up for every Koan.
+Every Koan comes with three main stages: `Start`, `See Solution` and `Apply Solution`. The three stages are executed written in Rug and so you'll use the CLI to set them up for every Koan.
 
 To see how you move through these stages for each Koan the following will walk you through how to do that for Step 1.
 

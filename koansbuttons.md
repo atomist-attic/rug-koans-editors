@@ -1,0 +1,18 @@
+# Rug Koans Buttons
+
+All of the buttons to successfully navigate your Rug Koans journey are available in the table below.
+
+Click each button to apply that stage to a project on GitHub as you work through your own Rug Koan journey:
+
+Step | Teaches | Start | See Solution | Apply Solution
+-----|-------- | ------|--------------- | ----------------------
+ 1 | How to create a simple Rug generator that will create a new project with a merged README | [<img src="http://images.atomist.com/button/start-koan.png" width="216" alt="Start this Rug Koan"/>](https://api.atomist.com/v1/projects/editors/a219b2a6-3d1f-4445-858f-af9059a8f935) | [<img src="http://images.atomist.com/button/see-koan-solution.png" width="267" alt="See this Rug Koan Solution"/>](https://api.atomist.com/v1/projects/editors/73f2146b-9851-4115-862d-ffc9a9257d5e) | [<img src="http://images.atomist.com/button/apply-koan-solution.png" width="267" alt="Apply this Rug Koan Solution"/>](https://api.atomist.com/v1/projects/editors/e2aa28cc-d2e5-4a9a-9273-4680bd15438a)
+ 2 | To introduce the mandatory `project_name` parameter to a Rug generator and then access it from a [Mustache](https://mustache.github.io/) template | TBD | TBD | TBD
+
+
+ ---
+ Created by [Atomist][atomist].
+ Need Help?  [Join our Slack team][slack].
+
+ [atomist]: https://www.atomist.com/
+ [slack]: https://join.atomist.com/
