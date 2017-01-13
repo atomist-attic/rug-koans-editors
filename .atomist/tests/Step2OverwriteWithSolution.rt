@@ -1,0 +1,32 @@
+/*
+ * Copyright © 2016 Atomist, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+scenario Step2OverwriteWithSolution should overwrite the working files with the solution
+
+given
+  Empty
+
+when
+  Step2OverwriteWithSolution
+
+then
+  fileExists ".atomist/editors/Step2.rug"
+    and fileExists ".atomist/tests/Step2.rt"
+    and fileContains ".atomist/editors/Step2.rug" "editor Step2"
+    and fileContains ".atomist/tests/Step2.rt" "scenario Step2"
+    and { !result.fileContains(".atomist/editors/Step2.rug", "Step2Solution") }
+    and { !result.fileContains(".atomist/tests/Step2.rt", "Step2Solution") }
+    and fileExists ".atomist/templates/readme.mustache"

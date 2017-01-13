@@ -1,0 +1,15 @@
+scenario Step2Solution should create a new project with the mandatory project_name parameter
+
+let project = "mynewprojectname"
+
+given
+  ArchiveRoot
+
+when
+  Step2 project_name = project
+
+then
+  fileExists "README.md"
+    and fileContains "README.md" { "Hello! " + project }
+    and fileExists "staticprojectfile.txt"
+    and fileContains "staticprojectfile.txt" "Important Content!"
