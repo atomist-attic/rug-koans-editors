@@ -1,11 +1,20 @@
 scenario Step1Solution should create an empty project with a merged README
 
+// Add a given block that uses the current project's ArchiveRoot
 given
   ArchiveRoot
 
+
+// Add a when block that executes your Rug
 when
   Step1Solution
 
+
+/* Add a then block that asserts that:
+ * - your project has a README.md file
+ * - the README.md file contains the string "Hello!"
+ * - that a file exists called "staticprojectfile.txt"
+*/ - that the "staticprojectfile.txt" file contains the string "Important Content!"
 then
   fileExists "README.md"
     and fileContains "README.md" "Hello!"
