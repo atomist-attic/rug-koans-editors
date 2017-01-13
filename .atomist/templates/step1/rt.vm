@@ -15,3 +15,5 @@ scenario Step1
  * - the README.md file contains the string "Hello!"
  * - that a file exists called "staticprojectfile.txt"
 */ - that the "staticprojectfile.txt" file contains the string "Important Content!"
+
+// Now jump to ".atomist/editors/Step1.rug"

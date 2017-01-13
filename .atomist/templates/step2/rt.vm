@@ -1,12 +1,18 @@
+// Start here for this Koan...
+
+// Contemplate the documentation here: http://docs.atomist.com/reference-docs/rug/rug-tests/
+
 scenario Step2 should create a new project with the mandatory project_name parameter
 
-let project = "mynewprojectname"
+// `let` rug initialise a named value called `project_name` with the string contents "mynewprojectname"
+
+// Now jump to ".atomist/editors/Step2.rug"
 
 given
   ArchiveRoot
 
 when
-  Step2 project_name = project
+  Step2
 
 then
   fileExists "README.md"

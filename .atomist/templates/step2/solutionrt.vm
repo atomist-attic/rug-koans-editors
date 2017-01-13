@@ -1,12 +1,12 @@
 scenario Step2Solution should create a new project with the mandatory project_name parameter
 
-let project = "mynewprojectname"
+let project_name = "mynewprojectname"
 
 given
   ArchiveRoot
 
 when
-  Step2 project_name = project
+  Step2Solution
 
 then
   fileExists "README.md"

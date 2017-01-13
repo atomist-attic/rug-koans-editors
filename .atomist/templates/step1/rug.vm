@@ -18,4 +18,4 @@ editor Step1
 // Create a file in the ".atomist/templates" directory that contains the string "Hello!" only.
 
 // Finally...
-// run `rug test` from your project's root directory and your tests should pass.
+// run `rug test` from your project's root directory and your tests should pass to complete this Koan.
