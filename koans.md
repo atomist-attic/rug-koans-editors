@@ -28,6 +28,6 @@ The are currently two main ways of working through and executing the Rug Koans. 
 
 - Start your Journey locally outside of GitHub (coming soon) - Grab this repository and use the [Rug CLI][rug-cli] to apply the editors here to do the same thing on a local project repository outside of GitHub.
 
-- Start your Journey using the Atomist Bot - Support for working through the Rug Koans using the Atomist bot is ***Coming Soon***, watch this space.
+- Start your Journey using the Atomist Bot (coming soon)
 
 [rug-cli]: http://docs.atomist.com/rug/rug-cli/rug-cli-install/
