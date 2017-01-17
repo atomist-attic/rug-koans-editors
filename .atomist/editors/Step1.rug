@@ -21,4 +21,5 @@ editor Step1
 with Project begin
   do merge "step1/rug.vm" ".atomist/editors/Step1.rug"
   do merge "step1/rt.vm" ".atomist/tests/Step1.rt"
+  do merge "step1/readme.vm" "README.md"
 end

@@ -25,3 +25,5 @@ when
 then
   fileExists ".atomist/editors/Step1.rug"
     and fileExists ".atomist/tests/Step1.rt"
+    and fileExists "README.md"
+    and fileContains "README.md" "You are on Step 1 of the Rug Koans"
