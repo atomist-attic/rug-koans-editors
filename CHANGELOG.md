@@ -7,7 +7,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-[Unreleased]: https://github.com/atomist-rugs/rug-koans-editors/compare/0.2.1...HEAD
+[Unreleased]: https://github.com/atomist-rugs/rug-koans-editors/compare/0.3.0...HEAD
+
+
+## [0.3.0] - 2017-01-17
+
+[0.3.0]: https://github.com/atomist-rugs/rug-koans-editors/compare/0.2.1...0.3.0
+
+### Changed
+
+-   Added buttons and CLI commands to readmes of the steps.
 
 ## [0.2.1] - 2017-01-17
 
