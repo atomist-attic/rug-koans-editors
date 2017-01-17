@@ -37,5 +37,4 @@
  with Project begin
    do merge "step2/rug.vm" ".atomist/editors/Step2.rug"
    do merge "step2/rt.vm" ".atomist/tests/Step2.rt"
-   do merge "step2/readme.vm" ".atomist/templates/readme.mustache"
  end

@@ -10,6 +10,4 @@ when
 
 then
   fileExists "README.md"
-    and fileContains "README.md" { "Hello! " + project }
-    and fileExists "staticprojectfile.txt"
-    and fileContains "staticprojectfile.txt" "Important Content!"
+    and fileContains "README.md" project_name

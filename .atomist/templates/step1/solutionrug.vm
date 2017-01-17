@@ -1,7 +1,7 @@
-// Add an annotation to declare this Rug editor is, in fact, a generator of new projects
+/* Add an annotation to declare this Rug editor is, in fact, a generator of new projects */
 @generator
 editor Step1Solution
 
-// Instruct the editor to work with the Project and then do a merge to take a mustache template file called "readme.mustache" and make a file called "README.md" in the resulting project
+/* Instruct the editor to work with the Project to create a new file called `README.md` in the root of the project with the file's contents being `Hello!` */
 with Project
-  do merge "readme.mustache" "README.md"
+  do addFile "README.md" "Hello!"

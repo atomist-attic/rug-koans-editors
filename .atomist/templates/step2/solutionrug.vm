@@ -1,6 +1,15 @@
 @generator
 editor Step2Solution
 
+/* Contemplate the documentation here: http://docs.atomist.com/reference-docs/rug/rug-generators/ */
+
+/* Add a parameter with a name of `project_name` and a pattern label of `@project_name`
+ * Add an annotation to set the parameter's display name to "Project Name"
+ * Add an annotation to set the parameter's description to "name of your new project"
+ * Add an annotation to set the parameter's valid input message of this parameter to "a valid GitHub repo name containing only alphanumeric, ., -, and _ characters and 21 characters or less to avoid Slack truncating the name when creating a channel for the repo"
+ * Add an annotation to the the parameter's minimum length to 1
+ * Add an annotation to the the parameter's maximum length to 21
+ */
 @displayName "Project Name"
 @description "name of your new project"
 @validInput "a valid GitHub repo name containing only alphanumeric, ., -, and _ characters and 21 characters or less to avoid Slack truncating the name when creating a channel for the repo"
@@ -9,4 +18,10 @@ editor Step2Solution
 param project_name: @project_name
 
 with Project
-  do merge "readme.mustache" "README.md"
+  do addFile "README.md" "Hello!"
+
+/* Contemplate the documentation here: http://docs.atomist.com/reference-docs/rug/types/rug-core-types-file/ */
+
+/* Now append the `project_name` parameter's content to the `README.md` file */
+with File when name = "README.md"
+  do append project_name

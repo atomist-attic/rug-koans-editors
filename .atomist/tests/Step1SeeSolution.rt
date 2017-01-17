@@ -25,5 +25,4 @@ when
 then
   fileExists ".atomist/editors/Step1Solution.rug"
   and fileExists ".atomist/tests/Step1Solution.rt"
-  and fileExists ".atomist/templates/readme.mustache"
   and fileExists "staticprojectfile.txt"

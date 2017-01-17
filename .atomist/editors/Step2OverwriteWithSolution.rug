@@ -21,7 +21,6 @@ editor Step2OverwriteWithSolution
 with Project begin
   do merge "step2/solutionrug.vm" ".atomist/editors/Step2.rug"
   do merge "step2/solutionrt.vm" ".atomist/tests/Step2.rt"
-  do merge "step2/solutionreadme.vm" ".atomist/templates/readme.mustache"
   do deleteFile ".atomist/editors/Step2Solution.rug"
   do deleteFile ".atomist/tests/Step2Solution.rt"
   do replace "Step2Solution" "Step2"

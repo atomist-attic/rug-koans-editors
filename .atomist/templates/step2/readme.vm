@@ -1,6 +1,0 @@
-// Complete the instructions in the ".atomist/tests/Step2.rug" first if you haven't already
-// Contemplate this: https://mustache.github.io/mustache.5.html
-// Embed a lookup using Mustache syntax to the `project_name` parameter
-// Finally...
-// remove these comments and run `rug test` from the project root directory and your tests should pass to complete this Koan.
-Hello!

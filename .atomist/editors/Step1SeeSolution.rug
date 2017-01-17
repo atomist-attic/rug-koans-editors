@@ -21,6 +21,5 @@ editor Step1SeeSolution
 with Project begin
   do merge "step1/solutionrug.vm" ".atomist/editors/Step1Solution.rug"
   do merge "step1/solutionrt.vm" ".atomist/tests/Step1Solution.rt"
-  do merge "step1/solutionreadme.vm" ".atomist/templates/readme.mustache"
   do merge "step1/solutionstaticprojectfile.vm" "staticprojectfile.txt"
 end

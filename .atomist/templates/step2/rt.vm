@@ -1,12 +1,10 @@
-// Start here for this Koan...
+/* Start here for this Koan... */
 
-// Contemplate the documentation here: http://docs.atomist.com/reference-docs/rug/rug-tests/
+/* Contemplate the documentation here: http://docs.atomist.com/reference-docs/rug/rug-tests/ */
 
 scenario Step2 should create a new project with the mandatory project_name parameter
 
-// `let` rug initialise a named value called `project_name` with the string contents "mynewprojectname"
-
-// Now jump to ".atomist/editors/Step2.rug"
+/* `let` rug initialise a named value called `project_name` with the string contents "mynewprojectname" */
 
 given
   ArchiveRoot
@@ -14,8 +12,9 @@ given
 when
   Step2
 
+/* Assert that the README.md file contains the `project_name` now as well. */
 then
   fileExists "README.md"
-    and fileContains "README.md" { "Hello! " + project }
-    and fileExists "staticprojectfile.txt"
-    and fileContains "staticprojectfile.txt" "Important Content!"
+    and fileContains "README.md" project_name
+
+/* You can now jump to the `Step1.rug` to complete this Koan. */

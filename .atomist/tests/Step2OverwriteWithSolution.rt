@@ -29,4 +29,3 @@ then
     and fileContains ".atomist/tests/Step2.rt" "scenario Step2"
     and { !result.fileContains(".atomist/editors/Step2.rug", "Step2Solution") }
     and { !result.fileContains(".atomist/tests/Step2.rt", "Step2Solution") }
-    and fileExists ".atomist/templates/readme.mustache"

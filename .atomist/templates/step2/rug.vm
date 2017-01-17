@@ -1,20 +1,21 @@
 @generator
 editor Step2
 
-// Start by completing the instructions in the ".atomist/tests/Step2.rt" first if you haven't already
+/* Start by completing the instructions in the ".atomist/tests/Step2.rt" first if you haven't already */
 
-// Contemplate the documentation here: http://docs.atomist.com/reference-docs/rug/rug-generators/
+/* Contemplate the documentation here: http://docs.atomist.com/reference-docs/rug/rug-generators/ */
 
+/* Add a parameter with a name of `project_name` and a pattern label of `@project_name`
+ * Add an annotation to set the parameter's display name to "Project Name"
+ * Add an annotation to set the parameter's description to "name of your new project"
+ * Add an annotation to set the parameter's valid input message of this parameter to "a valid GitHub repo name containing only alphanumeric, ., -, and _ characters and 21 characters or less to avoid Slack truncating the name when creating a channel for the repo"
+ * Add an annotation to the the parameter's minimum length to 1
+ * Add an annotation to the the parameter's maximum length to 21
+ */
 
-// TODO Add instruction
-// Add a parameter with a name of `project_name` and a pattern label of `@project_name`
-// Add an annotation to set the parameter's display name to "Project Name"
-// Add an annotation to set the parameter's description to "name of your new project"
-// Add an annotation to set the parameter's valid input message of this parameter to "a valid GitHub repo name containing only alphanumeric, ., -, and _ characters and 21 characters or less to avoid Slack truncating the name when creating a channel for the repo"
-// Add an annotation to the the parameter's minimum length to 1
-// Add an annotation to the the parameter's maximum length to 21
+ with Project
+   do addFile "README.md" "Hello!"
 
-// Now jump to ".atomist/templates/readme.mustache"
+/* Contemplate the documentation here: http://docs.atomist.com/reference-docs/rug/types/rug-core-types-file/ */
 
-with Project
-  do merge "readme.mustache" "README.md"
+/* Now append the `project_name` parameter's content to the `README.md` file */

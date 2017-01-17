@@ -21,5 +21,4 @@ editor Step2SeeSolution
 with Project begin
   do merge "step2/solutionrug.vm" ".atomist/editors/Step2Solution.rug"
   do merge "step2/solutionrt.vm" ".atomist/tests/Step2Solution.rt"
-  do merge "step2/solutionreadme.vm" ".atomist/templates/readme.mustache"
 end

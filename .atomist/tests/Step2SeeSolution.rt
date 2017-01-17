@@ -24,6 +24,4 @@ when
 
 then
   fileExists ".atomist/editors/Step2Solution.rug"
-  and fileExists ".atomist/tests/Step2Solution.rt"
-  and fileExists ".atomist/templates/readme.mustache"
-  and fileContains ".atomist/templates/readme.mustache" "{{project_name}}" 
+  and fileExists ".atomist/tests/Step2Solution.rt" 

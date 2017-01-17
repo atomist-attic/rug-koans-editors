@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-scenario Step2 should the starting point for Rug Koan Step 2 to an existing Atomist Rug Archive
+scenario Step2 should populate the starting point for Rug Koan Step 2 to an existing Atomist Rug Archive
 
 given
   Empty
