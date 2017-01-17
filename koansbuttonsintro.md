@@ -23,7 +23,7 @@ To get started you need the starter files for your Koan. At a minimum, this will
 
 To do this you simply click on the following button and it will apply your edits to the indicated repository on GitHub:
 
-
+[<img src="http://images.atomist.com/button/start-koan.png" width="216" alt="Start this Rug Koan"/>](https://api.atomist.com/v1/projects/editors/a219b2a6-3d1f-4445-858f-af9059a8f935)
 
 After the editor has run you'll have access to the files you need to get started so you'll likely need to do a `git pull` to your local copy. Each of the files contains comments where your edits are needed, starting with a rug test, which in the case of Step 1 is `.atomist/tests/Step1.rt`.
 
@@ -52,7 +52,7 @@ To apply the solution for Step 1 you'd use the following button:
 
 Once you have completed a Koan it's time to circle back round to run the next editor to apply the starting point for your next step on the journey. In the case of Step 1 that would mean clicking the following button:
 
-(coming soon)
+[<img src="http://images.atomist.com/button/apply-koan-solution.png" width="267" alt="Start the next Rug Koan"/>](https://api.atomist.com/v1/projects/editors/9277d901-f391-498b-8b7d-b17074cf8273)
 
 ## Time to begin...
 
