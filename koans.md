@@ -26,9 +26,9 @@ The are currently two main ways of working through and executing the Rug Koans. 
 
 - [Start your Journey with Buttons on a project in GitHub](koansbuttonsintro.md) - Click through the buttons to work on an existing project in your own GitHub account.
 
-- [Start your Journey locally outside of GitHub (coming soon](koanscliintro.md) - Grab this repository and use the [Rug CLI][rug-cli] to apply the editors here to do the same thing on a local project repository outside of GitHub.
+- [Start your Journey locally outside of GitHub with the Rug CLI](koanscliintro.md) - Grab this repository and use the [Rug CLI][rug-cli] to apply the editors here to do the same thing on a local project repository outside of GitHub.
 
-- Start your Journey using the Atomist Bot (coming soon)
+- Start your Journey using the Atomist Bot (coming _very_ soon)
 
 [rug-cli]: http://docs.atomist.com/rug/rug-cli/rug-cli-install/
 
