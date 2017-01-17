@@ -50,9 +50,9 @@ To apply the solution for Step 1 you'd use the following button:
 
 ### Moving onto the next Koan
 
-Once you have completed a Koan it's time to circle back round to run the next editor to apply the starting point for your next step on the journey. In the case of Step 1 that would mean clicking the following button:
+Once you have completed a Koan it's time to circle back round to run the next editor to apply the starting point for your next step on the journey. In the case of Step 1 and moving to Step 2 that would mean clicking the following button:
 
-[<img src="http://images.atomist.com/button/apply-koan-solution.png" width="267" alt="Start the next Rug Koan"/>](https://api.atomist.com/v1/projects/editors/9277d901-f391-498b-8b7d-b17074cf8273)
+[<img src="http://images.atomist.com/button/start-koan.png" width="267" alt="Start the next Rug Koan"/>](https://api.atomist.com/v1/projects/editors/9277d901-f391-498b-8b7d-b17074cf8273)
 
 ## Time to begin...
 
